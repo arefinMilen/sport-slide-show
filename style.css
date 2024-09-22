@@ -1,0 +1,26 @@
+.sport-container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image:linear-gradient(#fff,rgb(7, 66, 148));
+}
+ 
+.sport-element {
+    
+    text-align: center;
+    color:rgb(81, 21, 231);
+    position: absolute;
+    transform: translate(-50%,-50%) scale(0);
+    transition: transform .6s;
+}
+.sport-element i,h2{
+    
+    font-size: 8rem;
+}
+.sport-element.current{
+    
+    transform: translate(-50%,-50%) scale(1);
+    transition: transform .6s;
+}
